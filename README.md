@@ -99,12 +99,12 @@ Before running the script, ensure the installation and functioning of the follow
     ```
    Produce a message to your topic using the Kafka console producer:
     ```bash
-    kafka-console-producer.sh --broker-list kafka:9092 --topic <topicname> 
+    kafka-console-producer.sh --broker-list kafka:9092 --topic <topic_name> 
     ```
 2. Run the script using Python:
 
     ```bash
-    python code.py
+    python agent.py --kafka-topic <topic_name>
     ```
 
 3. The script will consume messages from the Kafka topic, download the images, resize them according to the specified dimensions, and store the results in Redis with keys like 'image0', 'image1', and so on.
