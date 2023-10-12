@@ -1,5 +1,4 @@
 # kafka-redis-agent
-# Message Processing in Kafka
 
 This is a Python code that processes image URLs from a Kafka topic, downloads the images, resizes them, and stores the result in a Redis database.
 
@@ -108,5 +107,5 @@ Before running the script, ensure the installation and functioning of the follow
     python code.py
     ```
 
-3. The script will consume messages from the 'secondtask' Kafka topic, download the images, resize them according to the specified dimensions, and store the results in Redis with keys like 'image0', 'image1', and so on.
+3. The script will consume messages from the Kafka topic, download the images, resize them according to the specified dimensions, and store the results in Redis with keys like 'image0', 'image1', and so on.
 
