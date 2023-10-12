@@ -76,6 +76,8 @@ Both Redis and Kafka are now up and running in Docker.
     docker exec -it redis redis-cli
     ```
     Configure redis on http://localhost:8001
+
+  
 Before running the script, ensure the installation and functioning of the following components:
 1.  Python 3
 2. `requests` library for making HTTP requests.
