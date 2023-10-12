@@ -94,7 +94,14 @@ Before running the script, ensure the installation and functioning of the follow
 
 ## Execution
 
-1. Start a Kafka producer to send messages with image URLs and output size information to the 'secondtask' Kafka topic.
+1. Start a Kafka producer to send messages with image URLs and output size information to the Kafka topic.
+   ```bash
+    cd /opt/kafka_2.13-2.8.1/bin 
+    ```
+   Produce a message to your topic using the Kafka console producer:
+    ```bash
+    kafka-console-producer.sh --broker-list kafka:9092 --topic <topicname> 
+    ```
 2. Run the script using Python:
 
     ```bash
