@@ -1,0 +1,8 @@
+README.md
+setup.py
+kafka-redis-agent/__init__.py
+kafka-redis-agent/agent.py
+kafkaredis_agent.egg-info/PKG-INFO
+kafkaredis_agent.egg-info/SOURCES.txt
+kafkaredis_agent.egg-info/dependency_links.txt
+kafkaredis_agent.egg-info/top_level.txt

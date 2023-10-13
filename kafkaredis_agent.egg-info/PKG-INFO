@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: kafkaredis-agent
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Anirudh
+Author-email: <anirudh@hotmail.com>
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,KafkaConsumer,json,redis,PIL,ImageProcessingAgent
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
