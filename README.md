@@ -101,7 +101,7 @@ Before running the script, ensure the installation and functioning of the follow
     ```bash
     kafka-console-producer.sh --broker-list kafka:9092 --topic <topic_name> 
     ```
-2. Run the script using Python:
+2. Run the 'agent.py' script in kafka-redis-agent folder using Python:
 
     ```bash
     python agent.py --kafka-topic <topic_name>
